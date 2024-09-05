@@ -9,12 +9,9 @@ import SwiftUI
 
 @main
 struct fetchApp: App {
-    var body: some Scene {
-        WindowGroup {
-          NavigationStack {
-            MealListView(category: "Dessert")
-          }
-          .navigationTitle("MealDB")
-        }
+  var body: some Scene {
+    WindowGroup {
+      MealListView(category: "Dessert")
     }
+  }
 }
